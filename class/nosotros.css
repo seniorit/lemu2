@@ -1,0 +1,71 @@
+:root {
+	--primaryh: #3a94a1e5;
+	--secondaryh: #d6586d;
+}
+
+@media (max-width:1920px) {
+
+	#marca {
+		margin: 7rem 7rem 1rem 7rem;
+	}
+
+  #foto-pie {
+		margin: 7rem 4rem 1rem 4rem;
+	}
+
+  div.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+}
+
+@media (max-width:1280px) {
+
+	#marca {
+		margin: 7rem 4rem 1rem 4rem;
+	}
+
+  #foto-pie {
+		margin: 7rem 4rem 1rem 4rem;
+	}
+
+}
+
+@media (max-width:900px) {
+
+	#marca {
+		margin: 2rem
+	}
+
+  #foto-pie {
+		margin: 2rem;
+	}
+
+}
+
+@media (max-width:600px) {
+
+
+	#marca {
+		margin: 1rem;
+	}
+
+  #foto-pie {
+		margin: 1rem;
+	}
+
+
+}
+
+@media (max-width:540px) {
+
+
+	#marca {
+		margin: 5px;
+	}
+
+	#foto-pie {
+		margin: 5px;
+	}
+}

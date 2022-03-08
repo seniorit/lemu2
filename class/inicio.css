@@ -1,0 +1,226 @@
+:root {
+	--primaryh: #3a94a1e5;
+	--secondaryh: #d6586d;
+}
+
+
+
+#carousel-thumbs {
+	margin-top: 1px;
+	height: 200px;
+	width: 100%;
+	border: 1px solid #ddd;
+	background: #f1f1f100;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+
+div.button-container{
+	display:inline-block;
+	position:relative;
+}
+
+div.button-container button.btn{
+	position: absolute;
+	bottom: 4em;
+	left: 10em;
+	background-color: #31c2d8e5;
+	border-radius: 1.5em;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0.5em 1.2em;
+	border-color: #f7f7f700;
+}
+
+
+div.button-container button.btn :hover{
+	position: absolute;
+	bottom: 4em;
+	left: 10em;
+	background-color: #c57fe669;
+	border-radius: 1.5em;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0.5em 1.2em;
+	border-color: #f7f7f700;
+}
+
+
+
+div.card:hover {
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+
+.card-context {
+	display: flex;
+	margin: 0.3rem;
+	text-align: justify;
+	justify-content: space-between;
+}
+
+.card-primaryh {
+	background: rgb(247, 254, 255);
+}
+
+.carousel-inner {
+	height: auto;
+}
+
+div.main-section {
+	padding-top: 2rem;
+}
+
+#lightbox-container-image img {
+	width: auto;
+	max-height: 520px;
+}
+
+#cursos {
+	box-sizing: content-box;
+	z-index: 100;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#agenda>div.card {
+	background: #3a94a1e5;
+}
+
+#agenda>div.card>img {
+	background: #3a94a1e5;
+}
+
+.inicio-footer-div-bottom {
+	padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+	border-bottom: 2px;
+}
+
+.image-cover{
+	display: flex;
+	align-content: center;
+}
+
+
+#img-agenda {
+	background: primaryh;
+}
+
+@media (max-width:1920px) {
+
+	#cursos {
+		margin: 1rem 7rem 1rem 7rem;
+	}
+
+	#agenda {
+		margin: 1rem 7rem 1rem 7rem;
+	}
+}
+
+@media (max-width:1280px) {
+
+	#wrap,
+	.carousel-inner {
+		margin: 8rem;
+	}
+
+	#cursos {
+		margin: 1rem 4rem 1rem 4rem;
+	}
+
+	#agenda {
+		margin: 1rem 4rem 1rem 4rem;
+	}
+}
+
+@media (max-width:900px) {
+
+	#wrap,
+	.carousel-inner {
+		margin: 2rem;
+	}
+
+
+	#cursos {
+		margin: 2rem
+	}
+
+	#agenda {
+		margin: 2rem
+	}
+
+	div.button-container button.btn{
+		position: absolute;
+		bottom: 3em;
+		left: 6em;
+		background-color: #31c2d8e5;
+		border-radius: 1.5em;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 0.5em 1.2em;
+		border-color: #f7f7f700;
+	}
+
+}
+
+@media (max-width:600px) {
+
+	#wrap,
+	.carousel-inner {
+		margin: 1rem;
+	}
+
+
+	#cursos {
+		margin: 1rem;
+	}
+
+	#agenda {
+		margin: 1rem;
+	}
+
+	div.button-container button.btn{
+		position: absolute;
+		bottom: 1em;
+		left: 4em;
+		background-color: #31c2d8e5;
+		border-radius: 1.5em;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 0.5em 1.2em;
+		border-color: #f7f7f700;
+	}
+
+}
+
+@media (max-width:540px) {
+
+	#wrap,
+	.carousel-inner {
+		margin: 5px;
+	}
+
+
+	#cursos {
+		margin: 5px;
+	}
+
+	#agenda {
+		margin: 5px;
+	}
+
+	div.button-container button.btn{
+		position: absolute;
+		bottom: 1em;
+		left: 6em;
+		background-color: #31c2d8e5;
+		border-radius: 1.5em;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 0.5em 1.2em;
+		border-color: #f7f7f700;
+	}
+}

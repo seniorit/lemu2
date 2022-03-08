@@ -1,0 +1,29 @@
+#global {
+	height: 350px;
+	width: 100%;
+  border-radius: 5px;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+}
+
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  width:fit-content;
+  padding: 0;
+  margin: 0;
+}
+
+
+div.modal-body{
+  width:fit-content;
+}
+.texto-encima>h2, .texto-encima>h4{
+  color: rgb(247, 245, 245);
+}
+
+
+
+

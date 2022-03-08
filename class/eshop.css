@@ -1,0 +1,56 @@
+:root {
+  --primaryh: #498f9ae5;
+}
+
+ul .eshop {
+  list-style-type: none;
+  margin-left: 37%;
+  padding: 0
+}
+
+.rating {
+  margin-left: 37%
+}
+
+.page {
+  background-color: #3bb2b6;
+  padding: 2%;
+  margin: auto
+}
+
+
+.card-img-top {
+  width:120px;
+}
+
+.view {
+  background-color: #9e9e9e;
+  padding: 10px;
+  margin: 20px
+}
+
+.card {
+  width: 95%;
+  padding: 0px;
+  margin-left: 2%
+}
+
+.card-footer {
+  background-color: var(--primaryh);
+  font-weight: 400;
+  color: #fff;
+}
+
+
+.card-footer:hover {
+  background-color: var(--primaryh);
+  font-weight: 800;
+  color: #fff;
+}
+
+.price {
+  color: var(--primaryh);
+  font-weight: 600
+}
+
+
